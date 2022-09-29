@@ -4,7 +4,7 @@ export default function Item({ item }) {
   return (
     <ItemWrap>
       {item.link ? (
-        <a href={item.link} target="_blink">
+        <a href={item.link}>
           <Image img={item.img} />
         </a>
       ) : (
